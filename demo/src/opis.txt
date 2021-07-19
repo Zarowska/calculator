@@ -1,0 +1,58 @@
+1+3*4/2
+wczytywanie
+string 1+3*4/2
+
+sprawdzenie, czy są inne znaki oprócz liczb i operacji
+sprawdzenie, czy jest "/0"
+sprawdzenie, czy jest dwa symboli operacji podrząd 
+
+Dzielenia stringu na dwie listy jednokierunkowe char z operacjami oraz liczbami
+zbiór symboli operacja
+ 
+wynkonaj wszystkie_operacje lista_licz (lista liczb Prama symnbol_par)
+for dlugosc listy operracja
+	if ( elem opersacj = symnbol_par)
+		policz(liczba[indeks_elem opersacj]symnbol_parliczba[indeks_elem opersacj+1])
+	  zamien wartosc liczba[indeks_elem opersacj] =wynik_policz(liczba[indeks_elem opersacj]*liczba[indeks_elem opersacj+1])
+	  usun liczba[indeks_elem opersacj] ;
+	  usun  elem opersacj;
+
+
+wynkonaj wszystkie_operacje lista_liczb1 (lista liczb Prama *)
+wynkonaj wszystkie_operacje lista_liczb2 (lista lista_liczb1 liczb Prama /)
+wynkonaj wszystkie_operacje lista_liczb3 (lista  lista_liczb3 liczb Prama +)
+wynkonaj wszystkie_operacje lista_liczb4 (lista lista_liczb3 liczb Prama /)
+
+sprawd czy lista_liczb4 zawiera tylko jedna liczbe
+jelsi tak to zwoc  wynik=lista_liczb4
+
+
+for dlugosc listy operracja
+	if ( elem opersacj = *)
+	  pomnoz(liczba[indeks_elem opersacj]*liczba[indeks_elem opersacj+1])
+	  zamien wartosc liczba[indeks_elem opersacj] =pomnoz(liczba[indeks_elem opersacj]*liczba[indeks_elem opersacj+1])
+	  usun liczba[indeks_elem opersacj] ;
+	  usun  elem opersacj;
+
+for dlugosc listy operracja
+	if ( elem opersacj = /)
+	  podzil(liczba[indeks_elem opersacj]/liczba[indeks_elem opersacj+1])
+	  zamien wartosc liczba[indeks_elem opersacj] =pomnoz(liczba[indeks_elem opersacj]*liczba[indeks_elem opersacj+1])
+	  usun liczba[indeks_elem opersacj] ;
+	  usun  elem opersacj;
+
+for dlugosc listy operracja
+	if ( elem opersacj = +)
+	  dodaj(liczba[indeks_elem opersacj]*liczba[indeks_elem opersacj+1])
+	  zamien wartosc liczba[indeks_elem opersacj] =pomnoz(liczba[indeks_elem opersacj]*liczba[indeks_elem opersacj+1])
+	  usun liczba[indeks_elem opersacj] ;
+	  usun  elem opersacj;
+
+for dlugosc listy operracja
+	if ( elem opersacj = /)
+	  dodaj(liczba[indeks_elem opersacj]*liczba[indeks_elem opersacj+1])
+	  zamien wartosc liczba[indeks_elem opersacj] =pomnoz(liczba[indeks_elem opersacj]*liczba[indeks_elem opersacj+1])
+	  usun liczba[indeks_elem opersacj] ;
+	  usun  elem opersacj;
+
+
