@@ -2,14 +2,15 @@ package com.calculator;
 
 public class NumberOperation  implements Operation{
 
-	public NumberOperation(String string) {
-		
+	private String number;
+
+	public NumberOperation(String number) {
+		this.number = number;
 	}
 
 	@Override
-	public Result calculate() {
-		// TODO Auto-generated method stub
-		return null;
+	public double calculate() {
+			return Double.parseDouble(number);
 	}
 
 }
