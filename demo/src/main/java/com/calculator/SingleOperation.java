@@ -1,14 +1,13 @@
 package com.calculator;
 
-public class SingleOperation  implements Operation {
-
+public class SingleOperation implements Operation {
 
 	private String operator;
 	private Operation left;
 	private Operation right;
 
 	public SingleOperation(String operator, Operation left, Operation right) {
-		this.operator= operator;
+		this.operator = operator;
 		this.left = left;
 		this.right = right;
 
@@ -16,7 +15,7 @@ public class SingleOperation  implements Operation {
 
 	@Override
 	public double calculate() {
-		if(operator=="+"){
+		if (operator == "+") {
 			return left.calculate() + right.calculate();
 		}
 		if (operator == "-") {
@@ -28,8 +27,7 @@ public class SingleOperation  implements Operation {
 		if (operator == "/") {
 			return left.calculate() / right.calculate();
 		}
-	throw new UnsupportedOperationException(operator);
+		throw new UnsupportedOperationException(operator);
 	}
 
-	
 }

@@ -12,7 +12,7 @@ public class Reader {
 		System.out.print("You have entered: " + str);
 
 
-		Pattern compiledPattern = Pattern.compile("/0");
+		Pattern compiledPattern = Pattern.compile("/0");//
 		Matcher matcher = compiledPattern.matcher(str);
 		if (matcher.find()) {
 			System.out.println("\n" + "Division by zero. Try again.");
