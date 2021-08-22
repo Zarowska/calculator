@@ -1,12 +1,12 @@
 package com.calculator;
 
-public class SingleOperation implements Operation {
+public class SimpleExpression implements Expression {
 
 	private String operator;
-	private Operation left;
-	private Operation right;
+	private Expression left;
+	private Expression right;
 
-	public SingleOperation(String operator, Operation left, Operation right) {
+	public SimpleExpression(String operator, Expression left, Expression right) {
 		this.operator = operator;
 		this.left = left;
 		this.right = right;

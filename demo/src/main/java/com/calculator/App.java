@@ -8,9 +8,9 @@ package com.calculator;
 public class App {
 
 	public static void main(String[] args) {
-		String expression = "1+3*4/2";
-		//String expression = Reader.read();
-		Expression e = new Expression(expression);
+		//String expression = "1+0*2-1";
+		String expression = Reader.read();
+		MultiExpression e = new MultiExpression(expression);
 		double r = e.calculate();
 		System.out.println(r);
 

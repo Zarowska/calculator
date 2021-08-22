@@ -6,13 +6,13 @@ import java.util.regex.Pattern;
 
 public class Reader {
 	public static String read() {
-		Scanner sc = new Scanner(System.in); // System.in is a standard input stream
+		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a string: ");
-		String str = sc.nextLine(); // reads string before the space
-		System.out.print("You have entered: " + str);
+		String str = sc.nextLine();
+		sc.close();
 
 
-		Pattern compiledPattern = Pattern.compile("/0");//
+		Pattern compiledPattern = Pattern.compile("/0");
 		Matcher matcher = compiledPattern.matcher(str);
 		if (matcher.find()) {
 			System.out.println("\n" + "Division by zero. Try again.");

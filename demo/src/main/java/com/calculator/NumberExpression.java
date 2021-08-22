@@ -1,10 +1,10 @@
 package com.calculator;
 
-public class NumberOperation  implements Operation{
+public class NumberExpression  implements Expression{
 
 	private String number;
 
-	public NumberOperation(String number) {
+	public NumberExpression(String number) {
 		this.number = number;
 	}
 
