@@ -11,21 +11,19 @@ public class Reader {
 		String str = sc.nextLine();
 		sc.close();
 
-
 		Pattern compiledPattern = Pattern.compile("/0");
 		Matcher matcher = compiledPattern.matcher(str);
 		if (matcher.find()) {
 			System.out.println("\n" + "Division by zero. Try again.");
 			Reader.read();
 		}
-	
+
 		Pattern compiledPattern2 = Pattern.compile("[\\*\\+\\/\\-][\\*\\+\\/\\-]");
 		Matcher matcher2 = compiledPattern2.matcher(str);
 		if (matcher2.find()) {
 			System.out.println("\n" + "Error. Try again.");
-		Reader.read();
+			Reader.read();
 		}
-
 
 		Pattern compiledPattern3 = Pattern.compile("[^\\d\\+\\-\\*\\/]");
 		Matcher matcher3 = compiledPattern3.matcher(str);
