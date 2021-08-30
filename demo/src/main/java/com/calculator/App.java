@@ -13,6 +13,5 @@ public class App {
 		MultiExpression e = new MultiExpression(expression);
 		double r = e.calculate();
 		System.out.println(r);
-
 	}
 }
